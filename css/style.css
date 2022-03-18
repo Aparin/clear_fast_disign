@@ -1,0 +1,51 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.15;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 26px;
+  background-color: darkgreen;
+  max-width: 1220px;
+  min-width: 280px;
+  padding-right: 16px;
+  padding-left: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 24px;
+  width: 100%;
+  height: 56px;
+  color: #fff;
+}
+
+#search {
+  background-image: url(../svg/search.svg);
+  background-size: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
