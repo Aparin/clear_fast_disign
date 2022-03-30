@@ -7,26 +7,32 @@ html(lang="ru")
         title ZnaniOn.ru
         link(rel="stylesheet" href="css/style.css")
     body 
-        header.header 
-            span#menu &#9776;
-            div ZnaniOn.ru
-            a#search(href='') 
-        article 
-            h1  Some Article Title
-            p some enterning text
-            ul 
-                li Part1 
-                li part2
-                li Part1 
-                li part2
-            h2 Sub Title
-            p some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
-            p some text some text some text some text some text some text
-            h3 h3 sub title
-            p читайте по ссылке 
-                a здесь ссылка
-            h4 small title
-            blockquote some text 
-                a here a link
+        main
+            header.header 
+                span#menu &#9776;
+                div ZnaniOn.ru
+                a#search(href='') 
+            article 
+                h1  Some Article Title
+                p some enterning text
+                ul 
+                    li Part1 
+                    li some text some text some text some text some text some text some text some text some text some text some text some text some text some text some 
+                    li Part1 
+                    li part2
+                h2 Sub Title
+                p some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
+                p some text some text some text some text some text some text
+                h3 h3 sub title
+                p читайте по ссылке 
+                    a здесь ссылка
+                h4 small title
+                blockquote some text 
+                    a here a link
 
-            img(src="img/area-of-flowers.jpg")
+                img(src="img/area-of-flowers.jpg")
+
+            aside.comments__form 
+                p Ваш комментарий:
+                textarea.comments__textarea#comment(name="comment", cols="45", rows="5" aria-required="true") 
+                button.comments__button#sendComment Отправить комментарий

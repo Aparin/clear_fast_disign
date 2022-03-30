@@ -12,6 +12,10 @@ body {
   max-width: 1280px;
 }
 
+main {
+  max-width: 860px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -152,5 +156,33 @@ img {
   img {
     width: 860px;
   }
+}
+
+.comments__form {
+  display: block;
+  margin: 0 auto;
+  max-width: 860px;
+}
+
+textarea.comments__textarea {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+
+button.comments__button {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
