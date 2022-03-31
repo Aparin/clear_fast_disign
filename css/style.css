@@ -14,6 +14,8 @@ body {
 
 main {
   max-width: 860px;
+  float: left;
+  display: block;
 }
 
 .header {
@@ -184,5 +186,39 @@ button.comments__button {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+.right-sidebar {
+  margin-top: 65px;
+  width: 300px;
+  float: right;
+  padding: 10px;
+}
+
+.right-sidebar__card {
+  padding: 14px 14px 10px;
+  border: 2px solid #e1e1e1;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+
+section.footer {
+  background-color: darkgreen;
+  max-width: 1280px;
+  min-width: 280px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding: 7px 24px;
+  width: 100%;
+  height: auto;
+}
+
+section.footer p {
+  color: #fff;
+}
+
+section.footer a {
+  color: darkorange;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
